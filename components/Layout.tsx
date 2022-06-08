@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Header from "../components/Header";
+import Footer from "./Footer";
 import ScrollIndicator from "./ScrollIndicator";
 
 interface Props {
@@ -18,7 +19,8 @@ export default function Layout({ title, children }: Props) {
       </Head>
       <Header />
       <ScrollIndicator />
-      {children}
+      <div className="max-w-7xl mx-auto overflow-hidden p-3">{children}</div>
+      <Footer />
     </div>
   );
 }

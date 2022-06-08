@@ -53,4 +53,7 @@ p {
   .flex-center-center {
     @apply flex justify-center items-center flex-wrap text-center;
   }
+  .about-heading {
+    @apply text-5xl lg:text-7xl font-medium;
+  }
 }

@@ -1,6 +1,6 @@
 export default function ShowCase() {
   return (
-    <section className="max-w-7xl mx-auto w-screen h-screen mt-6 lg:mt-20 overflow-hidden p-3">
+    <section className="w-full mt-6 lg:mt-20">
       <div className="flex-center-center  lg:flex-between-center">
         <h1 className="showcase-h1">Unusual guy</h1>
         <div className="w-[497px] h-[60px] md:h-[113px] overflow-hidden bg-gray-600">
